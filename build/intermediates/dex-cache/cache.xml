@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/shehzadbilal/Desktop/Android/Medicine/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/shehzadbilal/Desktop/Android/Medicine/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_56a47c27f6df01c0e2afe25da7f9e31a9199f49f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shehzadbilal/Desktop/Android/Medicine/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="daf9975d84751d4802ca46a2d27cc0b43ef5d011">
+        <dex dex="/Users/shehzadbilal/Desktop/Android/Medicine/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ec25d526387d2f844bbba061d21daf6023176a5c/classes.dex" />
+    </item>
+
+</items>

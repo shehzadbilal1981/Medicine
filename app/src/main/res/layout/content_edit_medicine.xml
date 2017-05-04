@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.shehzadbilal.medicine.EditMedicineActivity"
+    tools:showIn="@layout/activity_edit_medicine">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </ImageView>
+
+        <Button
+            android:id="@+id/buttonLoadPicture"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:onClick="loadImage"
+            android:text="Load Picture" >
+        </Button>
+
+
+        <android.widget.TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicine Name:" />
+
+        <android.widget.EditText android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Medicine Name"
+            android:layout_marginTop="5dp" android:id="@+id/medicine_name" />
+
+        <android.widget.TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity:" android:layout_marginTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/medicine_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dropDownWidth="fill_parent" android:layout_marginTop="5dp" />
+
+        <android.widget.TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity Type:" android:layout_marginTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/medicine_quantity_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dropDownWidth="fill_parent" android:layout_marginTop="5dp" />
+
+        <android.widget.Button android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="SAVE"
+            android:layout_marginTop="20dp" android:onClick="SaveClicked" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

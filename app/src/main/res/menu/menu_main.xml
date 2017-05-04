@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shehzadbilal.medicine.MainActivity">
+    <item
+        android:id="@+id/freeze_button"
+        android:orderInCategory="100"
+        android:title="@string/action_freeze"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/showall_button"
+        android:orderInCategory="101"
+        android:title="@string/action_showall"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/add_button"
+        android:orderInCategory="102"
+        android:title="@string/action_add"
+        app:showAsAction="never" />
+</menu>
